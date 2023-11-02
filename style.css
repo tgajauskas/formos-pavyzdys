@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(PIC/road-background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-box {
+    width: 800px;
+    background: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 60px auto;
+}
+
+.contact-box h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 75px;
+    color: #333333;
+}
+
+.forms-box {
+    margin: 50px;
+    max-width: 100%;
+}
+
+.contact-box .forms-box input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.contact-box .forms-box label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+/* Forms ID's */
+
+#name {
+    background: #eeeeee;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    border-bottom-width: 2px;
+    border-color: #525252;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#email {
+    background: #eeeeee;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    border-bottom-width: 2px;
+    border-color: #525252;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#ref-number {
+    background: #eeeeee;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    border-bottom-width: 2px;
+    border-color: #525252;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Text input box */
+
+#message-box {
+    background: #eeeeee;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 2px;
+    border-color: #525252;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Button */
+
+#submit-button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 75px;
+    background: #333333;
+    color: white;
+    max-width: 100%;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+/* Hovers */
+
+#name:hover {
+    border: 2px solid #333333;
+    transition: 0.3s;
+}
+
+#email:hover {
+    border: 2px solid #333333;
+    transition: 0.3s;
+}
+
+#ref-number:hover {
+    border: 2px solid #333333;
+    transition: 0.3s;
+}
+
+#message-box:hover {
+    border: 2px solid #333333;
+    transition: 0.3s;
+}
+
+#submit-button:hover {
+    transition: 0.5s;
+    background: skyblue;
+    border-radius: 10px;
+}
+
+/* Visible number arrows */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   opacity: 1;
+}
